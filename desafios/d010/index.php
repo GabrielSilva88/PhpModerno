@@ -26,7 +26,7 @@
     </main>
     <section>
         <?php
-           $idade = $ano - $nasc;
+        $idade = $ano - $nasc;
         ?>
         <h2>Resultado</h2>
         <p>Quem nasceu <?= $nasc ?> vai ter <strong><?= $idade ?> anos</strong> em <?= $ano ?>!</p>
